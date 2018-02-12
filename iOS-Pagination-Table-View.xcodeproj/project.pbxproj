@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		1B39021820320FFE001DED0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B39021720320FFE001DED0E /* AppDelegate.swift */; };
-		1B39021A20320FFE001DED0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B39021920320FFE001DED0E /* ViewController.swift */; };
 		1B39021D20320FFE001DED0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B39021B20320FFE001DED0E /* Main.storyboard */; };
 		1B39021F20320FFE001DED0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B39021E20320FFE001DED0E /* Assets.xcassets */; };
 		1B39022220320FFE001DED0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B39022020320FFE001DED0E /* LaunchScreen.storyboard */; };
 		1B39022D20320FFE001DED0E /* iOS_Pagination_Table_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B39022C20320FFE001DED0E /* iOS_Pagination_Table_ViewTests.swift */; };
 		1B39023820320FFE001DED0E /* iOS_Pagination_Table_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B39023720320FFE001DED0E /* iOS_Pagination_Table_ViewUITests.swift */; };
+		1B39024620321029001DED0E /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B39024520321029001DED0E /* ProductTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		1B39021420320FFE001DED0E /* iOS-Pagination-Table-View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Pagination-Table-View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B39021720320FFE001DED0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B39021920320FFE001DED0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B39021C20320FFE001DED0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B39021E20320FFE001DED0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B39022120320FFE001DED0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		1B39023320320FFE001DED0E /* iOS-Pagination-Table-ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-Pagination-Table-ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B39023720320FFE001DED0E /* iOS_Pagination_Table_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Pagination_Table_ViewUITests.swift; sourceTree = "<group>"; };
 		1B39023920320FFE001DED0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B39024520321029001DED0E /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,11 @@
 			isa = PBXGroup;
 			children = (
 				1B39021720320FFE001DED0E /* AppDelegate.swift */,
-				1B39021920320FFE001DED0E /* ViewController.swift */,
 				1B39021B20320FFE001DED0E /* Main.storyboard */,
 				1B39021E20320FFE001DED0E /* Assets.xcassets */,
 				1B39022020320FFE001DED0E /* LaunchScreen.storyboard */,
 				1B39022320320FFE001DED0E /* Info.plist */,
+				1B39024520321029001DED0E /* ProductTableViewController.swift */,
 			);
 			path = "iOS-Pagination-Table-View";
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B39021A20320FFE001DED0E /* ViewController.swift in Sources */,
+				1B39024620321029001DED0E /* ProductTableViewController.swift in Sources */,
 				1B39021820320FFE001DED0E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
